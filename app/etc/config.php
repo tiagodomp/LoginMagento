@@ -245,6 +245,7 @@ return [
         'Temando_ShippingRemover' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
-        'Yotpo_Yotpo' => 1
+        'Yotpo_Yotpo' => 1,
+        '[Vendor]_[Module]' => 1
     ]
 ];

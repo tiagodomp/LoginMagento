@@ -138,7 +138,7 @@ class GuestPaymentInformationManagementPluginTest extends \PHPUnit\Framework\Tes
         /** @var \Magento\Customer\Api\CustomerRepositoryInterface $customerRepository */
         $customerRepository = $this->objectManager->create(\Magento\Customer\Api\CustomerRepositoryInterface::class);
         $customer = $customerRepository->getById(1);
-        $this->customerSession->loginById($customer->getId());
+        $this->customerSession->sloginById($customer->getId());
 
         //Retrieve product from repository
         /** @var \Magento\Catalog\Api\ProductRepositoryInterface $productRepository */
